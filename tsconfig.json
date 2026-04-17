@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "jree": ["./node_modules/jree/lib/index.d.ts"]
+        },
         "target": "ESNext",
         "module": "Node16",
         "moduleResolution": "Node16",
