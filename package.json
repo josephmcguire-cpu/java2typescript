@@ -19,6 +19,9 @@
     "homepage": "https://github.com/mike-lischke/java2typescript",
     "author": "Mike Lischke",
     "license": "MIT",
+    "engines": {
+        "node": ">=18.18.0"
+    },
     "type": "module",
     "bin": {
         "java2ts": "output/src/convert.js"
